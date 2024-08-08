@@ -92,7 +92,10 @@
             "polyfills": [
               "zone.js",
               "zone.js/testing"
+              
             ],
+           "proxyConfig": "src/proxy.conf.json",
+
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
